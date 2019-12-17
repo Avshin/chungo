@@ -22,41 +22,42 @@
                         <h2>PRINCIPALES DATOS</h2>
                     </div>
 
-
-                    <center>
-                        <div class="row">
-                            <!--ID ESTADO CIVIL-->
-                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                <div class="form-group ic-cmp-int">
-                                    <div class="form-ic-cmp">
-                                        <i class="notika-icon notika-star"></i>
+                    <form action="<% out.print(getServletContext().getContextPath()); %>" method="POST" >
+                        <center>
+                            <div class="row">
+                                <!--ID -->
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="form-group ic-cmp-int">
+                                        <div class="form-ic-cmp">
+                                            <i class="notika-icon notika-star"></i>
+                                        </div>
+                                        <div class="nk-int-st">
+                                            <input type="text" class="form-control" disabled="" placeholder="ID">
+                                        </div>
                                     </div>
-                                    <div class="nk-int-st">
-                                        <input type="text" class="form-control" disabled="" placeholder="ID">
+                                </div>
+                                <!-- DETALLE  -->
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="form-group ic-cmp-int">
+                                        <div class="form-ic-cmp">
+                                            <i class="notika-icon notika-support"></i>
+                                        </div>
+                                        <div class="nk-int-st">
+                                            <input type="text" class="form-control" placeholder="CARGOS">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- DETALLE DEL ESTADO CIVIL -->
-                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                <div class="form-group ic-cmp-int">
-                                    <div class="form-ic-cmp">
-                                        <i class="notika-icon notika-support"></i>
-                                    </div>
-                                    <div class="nk-int-st">
-                                        <input type="text" class="form-control" placeholder="CARGOS">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="">
                             <div class="">
-                                <button class="btn btn-success notika-btn-success waves-effect">AGREGAR</button>
-                                <button class="btn btn-warning notika-btn-warning waves-effect">MODIFICAR</button>
-                                <button class="btn btn-danger notika-btn-danger waves-effect">ELIMINAR</button>
+                                <div class="">
+                                    <button class="btn btn-success notika-btn-success waves-effect">AGREGAR</button>
+                                    <button class="btn btn-warning notika-btn-warning waves-effect">MODIFICAR</button>
+                                    <button class="btn btn-danger notika-btn-danger waves-effect">ELIMINAR</button>
+                                </div>
                             </div>
-                        </div>
-                    </center>
+                        </center>
+                    </form>
                 </div>
             </div>
         </div>

@@ -4,9 +4,17 @@
         <servlet-name>usuarios</servlet-name>
         <servlet-class>servlets.usuarios</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>cargosSRV</servlet-name>
+        <servlet-class>servlets.cargosSRV</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>usuarios</servlet-name>
         <url-pattern>/usuarios</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cargosSRV</servlet-name>
+        <url-pattern>/cargosSRV</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

@@ -12,68 +12,68 @@
 
         <!-- ICONO DE LA PESTAÑA -->
         <!-- ================================================================= -->
-        <link rel="shortcut icon" type="image/x-icon" href="../../../ASSets/img/logo/cat.png">
+        <link rel="shortcut icon" type="image/x-icon" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/img/logo/cat.png">
         <!-- ================================================================= -->
         <!-- ICONO DE LA PESTAÑA -->
 
-        <link href="../../../ASSets/css/css01.css" rel="stylesheet">
-        <link href="../../../ASSets/css/css02.css" rel="stylesheet">
+        <link href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/css01.css" rel="stylesheet">
+        <link href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/css02.css" rel="stylesheet">
         <!-- Bootstrap CSS
                     ============================================ -->
-        <link rel="stylesheet" href="../../../ASSets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/bootstrap.min.css">
         <!-- font awesome CSS
                     ============================================ -->
-        <link rel="stylesheet" href="../../../ASSets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/font-awesome.min.css">
         <!-- owl.carousel CSS
                     ============================================ -->
-        <link rel="stylesheet" href="../../../ASSets/css/owl.carousel.css">
-        <link rel="stylesheet" href="../../../ASSets/css/owl.theme.css">
-        <link rel="stylesheet" href="../../../ASSets/css/owl.transitions.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/owl.carousel.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/owl.theme.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/owl.transitions.css">
         <!-- meanmenu CSS
                     ============================================ -->
-        <link rel="stylesheet" href="../../../ASSets/css/meanmenu/meanmenu.min.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/meanmenu/meanmenu.min.css">
         <!-- animate CSS
                     ============================================ -->
-        <link rel="stylesheet" href="../../../ASSets/css/animate.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/animate.css">
         <!-- normalize CSS
                     ============================================ -->
-        <link rel="stylesheet" href="../../../ASSets/css/normalize.css">
-        <link rel="stylesheet" href="../../../ASSets/css/scrollbar/jquery.mCustomScrollbar.min.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/normalize.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/scrollbar/jquery.mCustomScrollbar.min.css">
 
         <!-- mCustomScrollbar CSS
                     ============================================ -->
-        <link rel="stylesheet" href="../../../ASSets/css/scrollbar/jquery.mCustomScrollbar.min.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/scrollbar/jquery.mCustomScrollbar.min.css">
         <!-- Notika icon CSS
                     ============================================ -->
-        <link rel="stylesheet" href="../../../ASSets/css/notika-custom-icon.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/notika-custom-icon.css">
         <!-- wave CSS
                     ============================================ -->
-        <link rel="stylesheet" href="../../../ASSets/css/wave/waves.min.css">
-        <link rel="stylesheet" href="../../../ASSets/css/wave/button.css">
-        <link rel="stylesheet" href="../../../ASSets/css/bootstrap-select/bootstrap-select.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/wave/waves.min.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/wave/button.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/bootstrap-select/bootstrap-select.css">
 
 
 
 
         <!-- modernizr JS
                     ============================================ -->
-        <link rel="stylesheet" href="../../../ASSets/css/datapicker/datepicker3.css">
-        <link rel="stylesheet" href="../../../ASSets/css/color-picker/farbtastic.css">
-        <link rel="stylesheet" href="../../../ASSets/css/chosen/chosen.css">
-        <link rel="stylesheet" href="../../../ASSets/css/dropzone/dropzone.css">
-        <link rel="stylesheet" href="../../../ASSets/css/wave/waves.min.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/datapicker/datepicker3.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/color-picker/farbtastic.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/chosen/chosen.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/dropzone/dropzone.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/wave/waves.min.css">
         <!-- main CSS
                          ============================================ -->
-        <link rel="stylesheet" href="../../../ASSets/css/main.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/main.css">
         <!-- style CSS
                           ============================================ -->
-        <link rel="stylesheet" href="../../../ASSets/css/style.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/style.css">
         <!-- responsive CSS
             ============================================ -->
-        <link rel="stylesheet" href="../../../ASSets/css/responsive.css">
+        <link rel="stylesheet" href="<% out.print(getServletContext().getContextPath()); %>/ASSets/css/responsive.css">
 
 
-        <script src="../../../ASSets/js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="<% out.print(getServletContext().getContextPath()); %>/ASSets/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <!-- =================================================================================================================================-->
@@ -87,7 +87,7 @@
                     <div >
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="logo-area"  >
-                                <a href="#"><img src="../../../ASSets/img/logo/cat.png"  /></a> 
+                                <a href="#"><img src="<% out.print(getServletContext().getContextPath()); %>/ASSets/img/logo/cat.png"  /></a> 
 
                             </div>
                         </div>
