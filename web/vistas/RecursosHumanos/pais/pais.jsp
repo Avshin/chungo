@@ -22,7 +22,7 @@
                         <h2>PRINCIPALES DATOS</h2>
                     </div>
 
-
+                    <form action="<% out.print(getServletContext().getContextPath());%>/cargosSRV" method="POST" >
                     <center>
                         <div class="row">
                             <!--ID -->

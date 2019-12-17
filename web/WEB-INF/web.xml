@@ -8,6 +8,34 @@
         <servlet-name>cargosSRV</servlet-name>
         <servlet-class>servlets.cargosSRV</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>carrerasSRV</servlet-name>
+        <servlet-class>servlets.carrerasSRV</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ciudadSRV</servlet-name>
+        <servlet-class>servlets.ciudadSRV</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>dependenciasSRV</servlet-name>
+        <servlet-class>servlets.dependenciasSRV</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>empresasSRV</servlet-name>
+        <servlet-class>servlets.empresasSRV</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EstadoCivilSRV</servlet-name>
+        <servlet-class>servlets.EstadoCivilSRV</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>institucionSRV</servlet-name>
+        <servlet-class>servlets.institucionSRV</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PaisSRV</servlet-name>
+        <servlet-class>servlets.PaisSRV</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>usuarios</servlet-name>
         <url-pattern>/usuarios</url-pattern>
@@ -15,6 +43,34 @@
     <servlet-mapping>
         <servlet-name>cargosSRV</servlet-name>
         <url-pattern>/cargosSRV</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>carrerasSRV</servlet-name>
+        <url-pattern>/carrerasSRV</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ciudadSRV</servlet-name>
+        <url-pattern>/ciudadSRV</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>dependenciasSRV</servlet-name>
+        <url-pattern>/dependenciasSRV</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>empresasSRV</servlet-name>
+        <url-pattern>/empresasSRV</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EstadoCivilSRV</servlet-name>
+        <url-pattern>/EstadoCivilSRV</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>institucionSRV</servlet-name>
+        <url-pattern>/institucionSRV</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PaisSRV</servlet-name>
+        <url-pattern>/PaisSRV</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
