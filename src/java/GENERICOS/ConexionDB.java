@@ -11,7 +11,7 @@ public class ConexionDB {
     private final String DEFAULT_HOST = "localhost";
     private final String DEFAULT_DB = "prueba";
     private final String DEFAULT_USER = "postgres";
-    private final String DEFAULT_PASS = "a";
+    private final String DEFAULT_PASS = "123";
     private String host;
     private String db;
     private String user;

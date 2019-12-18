@@ -48,6 +48,10 @@
         <servlet-name>TipoVinSRV</servlet-name>
         <servlet-class>servlets.TipoVinSRV</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletConsulta</servlet-name>
+        <servlet-class>servlets.ServletConsulta</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>usuarios</servlet-name>
         <url-pattern>/usuarios</url-pattern>
@@ -95,6 +99,10 @@
     <servlet-mapping>
         <servlet-name>TipoVinSRV</servlet-name>
         <url-pattern>/TipoVinSRV</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletConsulta</servlet-name>
+        <url-pattern>/ServletConsulta</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
