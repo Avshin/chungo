@@ -22,7 +22,7 @@
                         <h2>PRINCIPALES DATOS</h2>
                     </div>
 
-                    <form action="<% out.print(getServletContext().getContextPath());%>/sexoSRV" method="POST" >
+                    <form action="<% out.print(getServletContext().getContextPath());%>/cargosSRV" method="POST" >
                         <center>
                             <div class="row">
                                 <!--ID -->
@@ -32,7 +32,7 @@
                                             <i class="notika-icon notika-star"></i>
                                         </div>
                                         <div class="nk-int-st">
-                                            <input type="text" class="form-control" disabled="" placeholder="ID" id="id_sexo" value="0">
+                                            <input type="text" class="form-control" disabled="" placeholder="ID" id="id_cargo" value="0">
                                         </div>
                                     </div>
                                 </div>
@@ -43,7 +43,7 @@
                                             <i class="notika-icon notika-support"></i>
                                         </div>
                                         <div class="nk-int-st">
-                                            <input type="text" class="form-control" placeholder="CARGOS" id="sexo">
+                                            <input type="text" class="form-control" placeholder="CARGOS" id="cargo">
                                         </div>
                                     </div>
                                 </div>
@@ -51,7 +51,7 @@
 
                             <form>
                                 <div class="">
-                                    <button class="btn btn-success notika-btn-success waves-effect">AGREGAR</button>
+                                    <button class="btn btn-success notika-btn-success waves-effect ">AGREGAR</button>
                                     <button class="btn btn-warning notika-btn-warning waves-effect">MODIFICAR</button>
                                     <button class="btn btn-danger notika-btn-danger waves-effect">ELIMINAR</button>
                                 </div>
