@@ -50,14 +50,36 @@ public class PersonaSRV extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
+        String id_nombre = request.getParameter(nombre);
+        String id_apellido = request.getParameter(apellido);
+        String id_cedula = request.getParameter(cedula);
+
         // Recolectar datos del cliente.
+//        operacion = request.getParameter("operacion") != null ? request.getParameter("operacion") : "";
+//        switch (operacion) {
+//            case "listar":
+//                try (PrintWriter out = response.getWriter()) {
+//                    response.setContentType("text/html;charset=UTF-8");
+//                    String resultado = this.recuperarCiudad();
+//                    out.print(resultado);
+//                }
+//                break;
+//            default:
+//                try (PrintWriter out = response.getWriter()) {
+//                    response.setContentType("text/html;charset=UTF-8");
+//                    String resultado = "No se envio el argumento correcto";
+//                    out.print(resultado);
+//                }
+//                break;
+//        }
+//         Recolectar datos del cliente.
         operacion = request.getParameter("operacion") != null ? request.getParameter("operacion") : "";
-        
+
         switch (operacion) {
             case "listar":
                 try (PrintWriter out = response.getWriter()) {
                     response.setContentType("text/html;charset=UTF-8");
-                    String resultado = this.recuperarCiudad();
+                    String resultado = this.recuperarPersona();
                     out.print(resultado);
                 }
                 break;
@@ -72,19 +94,19 @@ public class PersonaSRV extends HttpServlet {
 
     }
 
-    private String recuperarCiudad() {
+    private String recuperarPersona() {
         String rows = "";
         try {
-            query = "SELECT id_person, nombre_per, apellido_per, cedula\n"
-                    + "  FROM public.personas;";
+            query = "SELECT id_persona, cin_persona, nombre_persona, apellido_persona\n"
+                    + "  FROM referenciales.personas;";
             ps = ConexionDB.getDBcon().prepareStatement(query);
             rs = ps.executeQuery();
             while (rs.next()) {
                 rows += "<tr>";
-                rows += "<td>" + rs.getInt("id_person") + "</td>";
-                rows += "<td>" + rs.getString("nombre_per") + "</td>";
-                rows += "<td>" + rs.getString("apellido_per") + "</td>";
-                rows += "<td>" + rs.getString("cedula") + "</td>";
+                rows += "<td>" + rs.getInt("id_persona") + "</td>";
+                rows += "<td>" + rs.getString("nombre_persona") + "</td>";
+                rows += "<td>" + rs.getString("apellido_persona") + "</td>";
+                rows += "<td>" + rs.getString("cin_persona") + "</td>";
                 rows += "</tr>";
                 System.out.println("recuperar persona");
             }
@@ -94,9 +116,8 @@ public class PersonaSRV extends HttpServlet {
         }
         return null;
     }
-    
-  //  private HashMap
 
+    //  private HashMap
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
@@ -120,8 +141,6 @@ public class PersonaSRV extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    
-    
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {

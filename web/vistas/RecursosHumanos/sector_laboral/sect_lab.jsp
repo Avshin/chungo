@@ -29,40 +29,42 @@
                     <div class="cmp-tb-hd">
                         <h2>PRINCIPALES DATOS</h2>
                     </div>
-                    <center>
-                        <div class="row">
-                            <!--ID -->
-                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                <div class="form-group ic-cmp-int">
-                                    <div class="form-ic-cmp">
-                                        <i class="notika-icon notika-star"></i>
+                    <form action="<% out.print(getServletContext().getContextPath());%>/SectorLabSRV" method="POST" >
+                        <center>
+                            <div class="row">
+                                <!--ID -->
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="form-group ic-cmp-int">
+                                        <div class="form-ic-cmp">
+                                            <i class="notika-icon notika-star"></i>
+                                        </div>
+                                        <div class="nk-int-st">
+                                            <input type="text" class="form-control" disabled="" placeholder="ID" id="id_sectorlab">
+                                        </div>
                                     </div>
-                                    <div class="nk-int-st">
-                                        <input type="text" class="form-control" disabled="" placeholder="ID">
+                                </div>
+                                <!-- DETALLE SECTOR LABORAL -->
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="form-group ic-cmp-int">
+                                        <div class="form-ic-cmp">
+                                            <i class="notika-icon notika-support"></i>
+                                        </div>
+                                        <div class="nk-int-st">
+                                            <input type="text" class="form-control" placeholder="SECTOR LABORAL" id="sectorlab">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- DETALLE SECTOR LABORAL -->
-                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                <div class="form-group ic-cmp-int">
-                                    <div class="form-ic-cmp">
-                                        <i class="notika-icon notika-support"></i>
-                                    </div>
-                                    <div class="nk-int-st">
-                                        <input type="text" class="form-control" placeholder="SECTOR LABORAL">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="">
                             <div class="">
-                                <button class="btn btn-success notika-btn-success waves-effect">AGREGAR</button>
-                                <button class="btn btn-warning notika-btn-warning waves-effect">MODIFICAR</button>
-                                <button class="btn btn-danger notika-btn-danger waves-effect">ELIMINAR</button>
+                                <div class="">
+                                    <button class="btn btn-success notika-btn-success waves-effect">AGREGAR</button>
+                                    <button class="btn btn-warning notika-btn-warning waves-effect">MODIFICAR</button>
+                                    <button class="btn btn-danger notika-btn-danger waves-effect">ELIMINAR</button>
+                                </div>
                             </div>
-                        </div>
-                    </center>
+                        </center>
+                    </form>
                 </div>
 
             </div>
@@ -81,27 +83,29 @@
                     <br>
                     <br>
                 </div>
-                <div class="bsc-tbl-cls">
-                    <table class="table table-cl">
-                        <thead>
-                            <tr>
-                            <th>ID</th>
-                            <th>DETALLE</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="active">
-                            <td>1</td>
-                            <td>PRIVADO</td>
+                <form action="<% out.print(getServletContext().getContextPath());%>/SectorLabSRV" method="POST" >
+                    <div class="bsc-tbl-cls">
+                        <table class="table table-cl">
+                            <thead>
+                                <tr>
+                                <th>ID</th>
+                                <th>DETALLE</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="active">
+                                <td>1</td>
+                                <td>PRIVADO</td>
 
-                            </tr>
-                            <tr class="danger">
-                            <td>2</td>
-                            <td>PUBLICO</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                                </tr>
+                                <tr class="danger">
+                                <td>2</td>
+                                <td>PUBLICO</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
             </div>
         </div>
         <!--TABLA FIN-->

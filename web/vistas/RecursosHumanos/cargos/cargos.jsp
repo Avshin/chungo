@@ -22,7 +22,7 @@
                         <h2>PRINCIPALES DATOS</h2>
                     </div>
 
-                    <form action="<% out.print(getServletContext().getContextPath());%>/PaisSRV" method="POST" >
+                    <form action="<% out.print(getServletContext().getContextPath());%>/sexoSRV" method="POST" >
                         <center>
                             <div class="row">
                                 <!--ID -->
@@ -32,7 +32,7 @@
                                             <i class="notika-icon notika-star"></i>
                                         </div>
                                         <div class="nk-int-st">
-                                            <input type="text" class="form-control" disabled="" placeholder="ID" id="id_pais" value="0">
+                                            <input type="text" class="form-control" disabled="" placeholder="ID" id="id_sexo" value="0">
                                         </div>
                                     </div>
                                 </div>
@@ -43,7 +43,7 @@
                                             <i class="notika-icon notika-support"></i>
                                         </div>
                                         <div class="nk-int-st">
-                                            <input type="text" class="form-control" placeholder="CARGOS" id="pais">
+                                            <input type="text" class="form-control" placeholder="CARGOS" id="sexo">
                                         </div>
                                     </div>
                                 </div>
@@ -62,7 +62,7 @@
         </div>
 
         <!-- Inicio tabla -->
-        <form  action="<% out.print(getServletContext().getContextPath());%>/PaisSRV" method="POST">
+        <form  action="<% out.print(getServletContext().getContextPath());%>/sexoSRV" method="POST">
             <div class="row">
                 <div class="col col-md-4"></div>
                 <div class="col col-md-4">

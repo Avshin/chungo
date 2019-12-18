@@ -36,6 +36,18 @@
         <servlet-name>PaisSRV</servlet-name>
         <servlet-class>servlets.PaisSRV</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>SectorLabSRV</servlet-name>
+        <servlet-class>servlets.SectorLabSRV</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>sexo</servlet-name>
+        <servlet-class>servlets.sexoSRV</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TipoVinSRV</servlet-name>
+        <servlet-class>servlets.TipoVinSRV</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>usuarios</servlet-name>
         <url-pattern>/usuarios</url-pattern>
@@ -71,6 +83,18 @@
     <servlet-mapping>
         <servlet-name>PaisSRV</servlet-name>
         <url-pattern>/PaisSRV</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SectorLabSRV</servlet-name>
+        <url-pattern>/SectorLabSRV</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>sexo</servlet-name>
+        <url-pattern>/sexo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TipoVinSRV</servlet-name>
+        <url-pattern>/TipoVinSRV</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
