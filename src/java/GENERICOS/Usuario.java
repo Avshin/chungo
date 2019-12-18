@@ -23,7 +23,7 @@ public class Usuario {
             ConexionDB c = new ConexionDB();
             Connection con = c.getDBcon();
             Statement st = con.createStatement();
-            ResultSet rs = st.executeQuery("Select * from Usuario where usuario='" + usuario + "'");
+            ResultSet rs = st.executeQuery("Select * from usuario where id_usuario=1" + usuario + "usuario 1");
             while (rs.next()) {
                 busuario = new BeanUsuario(rs.getString(2), rs.getString(3), rs.getInt(4) + "", rs.getString(5), usuario, rs.getString(7));
             }
