@@ -113,21 +113,22 @@
                                 <ul class="mobile-menu-nav">
                                     <li><a data-toggle="collapse" data-target="#Charts" href="#">Home</a>
                                         <ul class="collapse dropdown-header-top">
-                                            <li><a href="index.html">Dashboard One</a></li>
-                                            <li><a href="index-2.html">Dashboard Two</a></li>
-                                            <li><a href="index-3.html">Dashboard Three</a></li>
-                                            <li><a href="index-4.html">Dashboard Four</a></li>
-                                            <li><a href="analytics.html">Analytics</a></li>
-                                            <li><a href="widgets.html">Widgets</a></li>
+                                            <li><a href="index.html">tabla uno</a></li>
+                                            <li><a href="index-2.html">tabla dos</a></li>
+                                            <li><a href="index-3.html">tabla tres Three</a></li>
+                                            <li><a href="index-4.html">tabla cuatro</a></li>
+                                            <li><a href="analytics.html">cinco</a></li>
+                                            <li><a href="widgets.html">seis</a></li>
+                                            <li><a href="widgets.html">seis</a></li>
+                                            <li><a href="widgets.html">seis</a></li>
+                                            <li><a href="widgets.html">seis</a></li>
+                                            <li><a href="widgets.html">seis</a></li>
+                                            <li><a href="widgets.html">seis</a></li>
+                                            <li><a href="widgets.html">seis</a></li>
+                                            <li><a href="widgets.html">seis</a></li>
                                         </ul>
                                     </li>
-                                    <li><a data-toggle="collapse" data-target="#demoevent" href="#">Email</a>
-                                        <ul id="demoevent" class="collapse dropdown-header-top">
-                                            <li><a href="inbox.html">Inbox</a></li>
-                                            <li><a href="view-email.html">View Email</a></li>
-                                            <li><a href="compose-email.html">Compose Email</a></li>
-                                        </ul>
-                                    </li>
+                                   
                                     <li><a data-toggle="collapse" data-target="#democrou" href="#">Interface</a>
                                         <ul id="democrou" class="collapse dropdown-header-top">
                                             <li><a href="animations.html">Animations</a></li>
@@ -222,8 +223,7 @@
                         <ul class="nav nav-tabs notika-menu-wrap menu-it-icon-pro">
                             <li><a data-toggle="tab" href="#Home"><i class="notika-icon notika-house"></i> Home</a>
                             </li>
-                            <li><a data-toggle="tab" href="#mailbox"><i class="notika-icon notika-mail"></i> Email</a>
-                            </li>
+                            
                             <li><a data-toggle="tab" href="#Interface"><i class="notika-icon notika-edit"></i> Interface</a>
                             </li>
                             <li><a data-toggle="tab" href="#Charts"><i class="notika-icon notika-bar-chart"></i> Charts</a>
@@ -240,17 +240,43 @@
                         <div class="tab-content custom-menu-content">
                             <div id="Home" class="tab-pane in notika-tab-menu-bg animated flipInX">
                                 <ul class="notika-main-menu-dropdown">
-                                    <li><a href="index.html">Dashboard One</a>
+                                    <li><a href="index.html">UNO</a>
                                     </li>
-                                    <li><a href="index-2.html">Dashboard Two</a>
+                                    <li><a href="index-2.html">DOS</a>
                                     </li>
-                                    <li><a href="index-3.html">Dashboard Three</a>
+                                    <li><a href="index-3.html">TRES</a>
                                     </li>
-                                    <li><a href="index-4.html">Dashboard Four</a>
+                                    <li><a href="index-4.html">CUATRO</a>
                                     </li>
-                                    <li><a href="analytics.html">Analytics</a>
+                                    <li><a href="analytics.html">CINCO</a>
                                     </li>
-                                    <li><a href="widgets.html">Widgets</a>
+                                    <li><a href="widgets.html">SEIS</a>
+                                    </li>
+                                    <li><a href="widgets.html">SEIS</a>
+                                    </li>
+                                    <li><a href="widgets.html">SEIS</a>
+                                    </li>
+                                    <li><a href="widgets.html">SEIS</a>
+                                    </li>
+                                    <li><a href="widgets.html">SEIS</a>
+                                    </li>
+                                    <li><a href="widgets.html">SEIS</a>
+                                    </li>
+                                    <li><a href="widgets.html">SEIS</a>
+                                    </li>
+                                    <li><a href="widgets.html">SEIS</a>
+                                    </li>
+                                    <li><a href="widgets.html">SEIS</a>
+                                    </li>
+                                    <li><a href="widgets.html">SEIS</a>
+                                    </li>
+                                    <li><a href="widgets.html">SEIS</a>
+                                    </li>
+                                    <li><a href="widgets.html">SEIS</a>
+                                    </li>
+                                    <li><a href="widgets.html">SEIS</a>
+                                    </li>
+                                    <li><a href="widgets.html">SEIS</a>
                                     </li>
                                 </ul>
                             </div>
