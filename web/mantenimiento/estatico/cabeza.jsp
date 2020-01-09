@@ -111,21 +111,9 @@
                         <div class="mobile-menu">
                             <nav id="dropdown">
                                 <ul class="mobile-menu-nav">
-                                    <li><a data-toggle="collapse" data-target="#Charts" href="#">Home</a>
+                                    <li><a data-toggle="collapse" data-target="#Charts" href="#">home</a>
                                         <ul class="collapse dropdown-header-top">
-                                            <li><a href="index.html">tabla uno</a></li>
-                                            <li><a href="index-2.html">tabla dos</a></li>
-                                            <li><a href="index-3.html">tabla tres Three</a></li>
-                                            <li><a href="index-4.html">tabla cuatro</a></li>
-                                            <li><a href="analytics.html">cinco</a></li>
-                                            <li><a href="widgets.html">seis</a></li>
-                                            <li><a href="widgets.html">seis</a></li>
-                                            <li><a href="widgets.html">seis</a></li>
-                                            <li><a href="widgets.html">seis</a></li>
-                                            <li><a href="widgets.html">seis</a></li>
-                                            <li><a href="widgets.html">seis</a></li>
-                                            <li><a href="widgets.html">seis</a></li>
-                                            <li><a href="widgets.html">seis</a></li>
+                                            <li><a href="index.html">home</a></li>
                                         </ul>
                                     </li>
                                    
@@ -240,43 +228,7 @@
                         <div class="tab-content custom-menu-content">
                             <div id="Home" class="tab-pane in notika-tab-menu-bg animated flipInX">
                                 <ul class="notika-main-menu-dropdown">
-                                    <li><a href="index.html">UNO</a>
-                                    </li>
-                                    <li><a href="index-2.html">DOS</a>
-                                    </li>
-                                    <li><a href="index-3.html">TRES</a>
-                                    </li>
-                                    <li><a href="index-4.html">CUATRO</a>
-                                    </li>
-                                    <li><a href="analytics.html">CINCO</a>
-                                    </li>
-                                    <li><a href="widgets.html">SEIS</a>
-                                    </li>
-                                    <li><a href="widgets.html">SEIS</a>
-                                    </li>
-                                    <li><a href="widgets.html">SEIS</a>
-                                    </li>
-                                    <li><a href="widgets.html">SEIS</a>
-                                    </li>
-                                    <li><a href="widgets.html">SEIS</a>
-                                    </li>
-                                    <li><a href="widgets.html">SEIS</a>
-                                    </li>
-                                    <li><a href="widgets.html">SEIS</a>
-                                    </li>
-                                    <li><a href="widgets.html">SEIS</a>
-                                    </li>
-                                    <li><a href="widgets.html">SEIS</a>
-                                    </li>
-                                    <li><a href="widgets.html">SEIS</a>
-                                    </li>
-                                    <li><a href="widgets.html">SEIS</a>
-                                    </li>
-                                    <li><a href="widgets.html">SEIS</a>
-                                    </li>
-                                    <li><a href="widgets.html">SEIS</a>
-                                    </li>
-                                    <li><a href="widgets.html">SEIS</a>
+                                    <li><a href="../../index.jsp">Home</a>
                                     </li>
                                 </ul>
                             </div>

@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.wrapper{
+    height: 600px;
+    width: 900px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.container{
+    height: 100%;
+    width: 50%;
+}
+/*LEFT CONTAINER*/
+.data{
+    background-color: #009877;
+    float:left;
+    text-align:center;
+    color:white;
+    font-size: 0.8rem;
+}
+.header{
+    padding-top:50%;
+}
+.header > h1{
+    margin:0;
+    text-transform: uppercase;
+    font-size:1.5rem;
+    letter-spacing: 0.2rem;
+}
+.subheader{
+    padding-top:50%;
+}
+/*RIGHT CONTAINER*/
+.login{
+    float:right;
+}
+.login > h2{
+    text-align: center;
+    margin-top:30%;
+}
+form{
+    text-align: center;
+}
+input{
+    font-family: 'Montserrat', sans-serif;
+}
+input[type="text"], input[type="password"]{
+    width:60%;
+    margin-top:1rem;
+    border:3px solid #009877;
+    padding:6px;
+}
+input[type="submit"]{
+    width:40%;
+    margin-top:3rem;
+    padding:7px 30px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color:#009877;
+    border:3px solid #009877;
+    color:white;
+}
+input[type="submit"]:hover{
+    transition:0.3s;
+    background-color: white;
+    color:#009877;
+}
+.social{
+    margin-top:5rem;
+    text-align: center;
+    color:#009877;
+    font-size:1.5rem;
+
+}
+.social span{
+    display: block;
+}
+.separator{
+    margin:auto;
+    width:15%;
+    height: 1px;
+    background-color: #009877;
+    margin-top:0.5rem;
+    margin-bottom:1.5rem;
+}

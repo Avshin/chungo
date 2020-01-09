@@ -58,7 +58,7 @@
 
         <!-- INICIO DEL LOGIN -->
 
-        <div class="login-content">
+        <div>
             <!-- Login -->
             <form action="ServletConsulta" method="get">
                 <div class="nk-block toggled" id="l-login">
