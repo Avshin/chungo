@@ -74,6 +74,8 @@
 
 
         <script src="<% out.print(getServletContext().getContextPath()); %>/ASSets/js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src=<% out.print(getServletContext().getContextPath()); %>"../../ASSets/js/jquery.js"></script>
+        <script src=<% out.print(getServletContext().getContextPath()); %>"../../ASSets/js/jquery-ui.min.js"></script>
     </head>
     <body>
         <!-- =================================================================================================================================-->
