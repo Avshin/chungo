@@ -1,5 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@include file="../../../mantenimiento/estatico/cabeza.jsp" %>
+<%@include file="../../estatico/cabeza.jsp" %>
 <!-- INICIO CONTENIDO ESTATICO-->
 <!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
 
